@@ -1,0 +1,45 @@
+.button{
+    margin-bottom: 1rem;
+
+}
+.button-1{
+    border-radius: 65% ;
+    background-color:rgb(176, 235, 220);
+}
+.thumb{
+    border: none;
+    text-align: center;
+}
+.order{
+    text-align: right;
+}
+.thumb .img {
+    position: relative;
+    background-size: cover;
+    height: 35vh;
+    background-position: center center;
+}
+
+.thumb .img::after {
+    content: "Free Shipping";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 6px;
+
+}
+.dash{
+    color: chocolate;   
+}
+#cash{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.cart{
+    width:100%;
+    background-color: black;
+    color: white;
+    border-width: none;
+}
